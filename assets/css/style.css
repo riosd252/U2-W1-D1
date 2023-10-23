@@ -237,6 +237,7 @@ footer a {
   header p,
   header nav {
     display: inline-block;
+    vertical-align: middle;
   }
 
   header div img,
@@ -252,13 +253,27 @@ footer a {
     font-size: 5rem;
   }
 
-  iframe {
-    margin-bottom: 0;
-  }
-
   iframe,
   #novita {
     display: inline-block;
-    width: 45%;
+    width: 49.8%;
+    margin-bottom: 2em;
+    vertical-align: middle;
+    border-radius: 10px;
+    height: 225px;
+  }
+
+  #novita h2 {
+    padding-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #novita p {
+    line-height: 3rem;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
   }
 }
