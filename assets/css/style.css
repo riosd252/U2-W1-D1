@@ -277,3 +277,22 @@ footer a {
     width: 33%;
   }
 }
+
+@media print {
+  header,
+  iframe,
+  #novita,
+  aside,
+  footer {
+    display: none;
+  }
+
+  html {
+    font-size: 95%;
+  }
+
+  main {
+    border-style: none;
+    box-shadow: none;
+  }
+}
